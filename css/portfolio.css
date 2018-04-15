@@ -48,13 +48,12 @@ body, html {
 
 .name {
     padding-top: 10px;
-    padding-right: 100px;
-    text-align: right;
+    text-align: center;
+    margin: auto;
 }
 
 h1, h2, h3, h4, h5 {
     text-align: center;
-    margin-bottom: 30px;
     padding-top: 30px;
 }
 
@@ -95,6 +94,7 @@ h1, h2, h3, h4, h5 {
 
 .para {
     margin: auto;
+    text-align: center;
 }
 
 .footer {

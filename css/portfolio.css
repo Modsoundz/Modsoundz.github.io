@@ -20,6 +20,14 @@ body, html {
 .row {
     margin-right: 0px;
 }
+
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+
 .nav-link {
     color: white;
     transition: color .28s ease;
@@ -43,7 +51,6 @@ body, html {
 }
 
 .launcher {
-    margin-top: 8%;
 }
 
 .name {
@@ -52,9 +59,15 @@ body, html {
     margin: auto;
 }
 
+.tCenter {
+    text-align: center;
+    padding-top: 80px;
+}
+
 h1, h2, h3, h4, h5 {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
+    margin-bottom: -15px;
 }
 
 .about {
@@ -64,12 +77,22 @@ h1, h2, h3, h4, h5 {
 .aboutInfo {
     margin: auto;
     text-align: center;
+    padding-top: 50px;
+}
+
+@media only screen and (min-width: 1500px) {
+    .aboutInfo {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
 }
 
 .photo {
     width: 55%;
     display: block;
     margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -81,6 +104,12 @@ h1, h2, h3, h4, h5 {
 @media only screen and (max-width: 576px) {
     .photo {
         width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .photo {
+        margin-left: 0;
     }
 }
 
@@ -109,6 +138,12 @@ h1, h2, h3, h4, h5 {
     height: 100px;
     margin: auto;
     margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 576px) {
+    .center {
+        width: 90%;
+    }
 }
 
 ul {

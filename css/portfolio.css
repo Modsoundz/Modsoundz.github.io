@@ -50,18 +50,18 @@ body, html {
     font-size: 20px;
 }
 
-.launcher {
+.launch {
+    height: 15vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 11vh;
+    background-color: #2d3851;
 }
 
 .name {
-    padding-top: 10px;
     text-align: center;
     margin: auto;
-}
-
-.tCenter {
-    text-align: center;
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 h1, h2, h3, h4, h5 {

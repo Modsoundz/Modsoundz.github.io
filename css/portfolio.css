@@ -14,6 +14,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     min-height: 50%;
     overflow: auto;
 }
@@ -56,9 +57,15 @@ body, html {
     margin: auto;
     margin-top: 11vh;
     background-color: #2d3851;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border-radius: 40px;
+}
+
+@media only screen and (max-width: 576px) {
+    .launch {
+        width: 95%;
+    }
 }
 
 .name {
@@ -68,7 +75,7 @@ body, html {
 }
 
 .bottom {
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 h1, h2, h3, h4, h5 {

@@ -22,7 +22,13 @@ body, html {
 @media only screen and (max-width: 576px) {
     .bg {
         min-height: 70%;
-        font-size: 14px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .bg {
+        min-height: 80%;
     }
 }
 

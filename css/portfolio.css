@@ -19,6 +19,12 @@ body, html {
     overflow: auto;
 }
 
+@media only screen and (max-width: 576px) {
+    .bg {
+        min-height: 70%;
+    }
+}
+
 .row {
     margin-right: 0px;
 }
@@ -65,6 +71,7 @@ body, html {
 @media only screen and (max-width: 576px) {
     .launch {
         width: 95%;
+        margin-top: 60%;
     }
 }
 

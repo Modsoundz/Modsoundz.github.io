@@ -22,14 +22,14 @@ body, html {
 @media only screen and (max-width: 576px) {
     .bg {
         min-height: 70%;
-        font-size: 13px;
+        font-size: 15px;
     }
 }
 
 @media only screen and (max-width: 400px) {
     .bg {
-        min-height: 80%;
-        font-size: 10px;
+        min-height: 90%;
+        font-size: 8px;
     }
 }
 

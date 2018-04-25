@@ -71,7 +71,7 @@ body, html {
 @media only screen and (max-width: 576px) {
     .launch {
         width: 95%;
-        margin-top: 60%;
+        margin-top: 50%;
     }
 }
 

@@ -14,22 +14,28 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     min-height: 50%;
     overflow: auto;
 }
+@media only screen and (min-width: 577px) and (min-height: 800px) {
+    .bg {
+        background-attachment: fixed;
+    }
+}
+
 
 @media only screen and (max-width: 576px) and (max-height: 800px) {
     .bg {
         min-height: 70%;
         font-size: 15px;
+        background-attachment: scroll;
     }
 }
 
 @media only screen and (max-width: 400px) and (max-height: 800px)  {
     .bg {
         min-height: 90%;
-        font-size: 11px;
+        font-size: 10px;
     }
 }
 

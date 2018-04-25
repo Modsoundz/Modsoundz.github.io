@@ -21,7 +21,7 @@ body, html {
 
 @media only screen and (max-width: 576px) {
     .bg {
-        min-height: 70%;
+        height: 70%;
     }
 }
 
